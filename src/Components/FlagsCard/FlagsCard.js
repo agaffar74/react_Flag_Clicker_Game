@@ -1,7 +1,7 @@
 import React from "react";
-import "./FriendCard.css";
+import "./FlagsCard.css";
 
-const FriendCard = props => (
+const FlagsCard = props => (
   <div className="card" data-id={props.id} onClick= {() => props.removeFriend(props.id)} >
     <div className="img-container">
       <img alt={props.name} src={props.image} />
@@ -11,4 +11,4 @@ const FriendCard = props => (
   </div>
 );
 
-export default FriendCard;
+export default FlagsCard;

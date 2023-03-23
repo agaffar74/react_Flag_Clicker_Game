@@ -1,5 +1,5 @@
 import React from 'react';
-import FriendCard from './Components/FriendCard'
+import FlagsCard from './Components/FlagsCard'
 import Wrapper from "./Components/Wrapper";
 import flags from "./flags.json";
 import Navbar from "./Components/Navbar"
@@ -86,7 +86,7 @@ class App extends React.Component {
         <Jumbotron />
 
         <Wrapper >
-          {this.shuffle(this.state.flags).map(item => <FriendCard
+          {this.shuffle(this.state.flags).map(item => <FlagsCard
             key={item.id}
             removeFriend={this.clicked}
             id={item.id}
