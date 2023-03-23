@@ -1,0 +1,106 @@
+[{
+    "id": 1,
+    "name": "Flag of Bangladesh",
+    "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Bangladesh.png?raw=true"
+  },
+  {
+    "id": 2,
+    "name": "Flag of Argentina",
+    "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Argentina.png?raw=true"
+  },
+  {
+    "id": 3,
+    "name": "Flag of Egypt",
+    "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Egypt.png?raw=true"
+  },
+    {
+    "id": 4,
+    "name": "Flag of Germany",
+    "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Germany.png?raw=true"
+  },
+  {
+    "id": 5,
+    "name": "Flag of Iran",
+    "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Iran.png?raw=true"
+  },
+  {
+    "id": 6,
+    "name": "Flag of Italy",
+    "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Italy.png?raw=true"
+  },
+  {
+    "id": 7,
+    "name": "Flag of Japan",
+    "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Japan.png?raw=true"
+    },
+    {
+    "id": 8,
+    "name": "Flag of Mexico",
+    "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Mexico.png?raw=true"
+  },
+  {
+    "id": 9,
+    "name": "Flag of New Zealand",
+    "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-New-Zealand.png?raw=true"
+  },
+  {
+    "id": 10,
+    "name": "Flag of Belgium",
+    "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Belgium.png?raw=true"
+  },
+  {
+    "id": 11,
+    "name": "Flag of Brazil",
+    "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Brazil.png?raw=true"
+  },
+  {
+    "id": 12,
+    "name": "Flag of Denmark",
+    "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Denmark.png?raw=true"
+    },
+    {
+      "id": 13,
+      "name": "Flag of Norway",
+      "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Norway.png?raw=true"
+    },
+    {
+      "id": 14,
+      "name": "Flag of Saudi Arabia",
+      "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Saudi-Arabia.png?raw=true"
+    },
+    {
+      "id": 15,
+      "name": "Flag of South Africa",
+      "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-South-Africa.png?raw=true"
+    },
+    {
+      "id": 16,
+      "name": "Flag of Sri Lanka",
+      "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Sri-Lanka.png?raw=true"
+    },
+    {
+      "id": 17,
+      "name": "Flag of Switzerland",
+      "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Switzerland.png?raw=true"
+    },
+    {
+      "id": 18,
+      "name": "Flag of Turkey",
+      "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Turkey.png?raw=true"
+    },
+    {
+      "id": 19,
+      "name": "Flag of United Kingdom",
+      "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-United-Kingdom.png?raw=true"
+    },
+    {
+      "id": 20,
+      "name": "Flag of United States of America",
+      "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-United-States-of-America.png?raw=true"
+    },
+    {
+      "id": 21,
+      "name": "Flag of Zimbabwe",
+      "image": "https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/flag-of-Zimbabwe.png?raw=true"
+    }
+  ]

@@ -4,7 +4,7 @@ import "./Navbar.css";
 const Navbar = props => (
   <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-light custom custom-font">
    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <h2 className="custom-font">Batman Memory</h2>
+    <h2 className="custom-font">Flags Memory Check</h2>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>

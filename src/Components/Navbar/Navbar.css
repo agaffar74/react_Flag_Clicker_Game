@@ -7,19 +7,19 @@
 }
 
 .custom {
-  background-color: black !important;
-  color: #FFF200 !important;
+  background-color: rgb(24, 24, 24) !important;
+  color: #4ce704 !important;
   
 }
 .navbar {
   border-bottom: 1px #484848 solid;
-  -webkit-box-shadow: 0 8px 6px -6px #999;
+  -webkit-box-shadow: 0 8px 6px -6px #aca9a9;
   -moz-box-shadow: 0 8px 6px -6px #999;
-  box-shadow: 0 8px 6px -6px #999;
+  box-shadow: 0 8px 6px -6px #b6b3b3;
 }
 
 .custom-font {
-  font-family: 'Carrois Gothic SC', sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* .selection {

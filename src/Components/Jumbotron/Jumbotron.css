@@ -1,9 +1,10 @@
 .jumbo-custom {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 0px;
-  background-image: url("https://github.com/EpicureanHeron/reactBatmanClicker/blob/master/public/img/photo-1530482817083-29ae4b92ff15.jpg?raw=true");
+  background-color: rgb(39, 39, 39);
+  /*background-image: url("https://github.com/EpicureanHeron/reactBatmanClicker/blob/master/public/img/photo-1530482817083-29ae4b92ff15.jpg?raw=true");*/
   text-align: center;
-  color: #FFF200 !important;
+  color: #0dedf5 !important;
   border-bottom: 4px #484848 solid;
   -webkit-box-shadow: 0 8px 6px -6px #999;
   -moz-box-shadow: 0 8px 6px -6px #999;

@@ -1,23 +1,24 @@
 import React from 'react';
 import FriendCard from './Components/FriendCard'
 import Wrapper from "./Components/Wrapper";
-import batman from "./batman.json";
+import flags from "./flags.json";
 import Navbar from "./Components/Navbar"
 import Jumbotron from "./Components/Jumbotron"
 import './App.css';
+import Footer from './Components/Footer';
 
 //should create a compontent that is the counter which as a state fthat is equal to the current score and also keeps the best score
 
 //this counter component should only iterate up if the click on card has not previoulsy been clicked 
 //this determination could be made at the time of the click and, based on whether or not it has been clicked, it uses the compenets 
 
-// const batman = this.state.batman.filter(batman => batman.id !== id);
+// const flags = this.state.flags.filter(flags => flags.id !== id);
 
 class App extends React.Component {
   // Setting the initial state of the Counter component
   state = {
     clickedArr: [],
-    batman,
+    flags,
     counter: 0,
     highScore: 0,
     message: ''
@@ -38,13 +39,13 @@ class App extends React.Component {
         this.setState({
           highScore: this.state.highScore + 1,
           counter: this.state.counter + 1,
-          message: <li className="custom-font">You guessed correctly!</li>
+          message: <li className="custom-font">Your guess was correct!</li>
         });
 
       }
       else {
         this.setState({ counter: this.state.counter + 1,
-          message: <li className="custom-font">You guessed correctly!</li>
+          message: <li className="custom-font">Your guess was incorrect!</li>
          })
       }
 
@@ -55,7 +56,7 @@ class App extends React.Component {
         counter: 0,
         highScore: this.state.highScore,
         clickedArr: [],
-        message: <li className="custom-font">You guessed incorrectly!</li>
+        message: <li className="custom-font">Your guess incorrect!</li>
       });
     };
 
@@ -85,14 +86,14 @@ class App extends React.Component {
         <Jumbotron />
 
         <Wrapper >
-          {this.shuffle(this.state.batman).map(item => <FriendCard
+          {this.shuffle(this.state.flags).map(item => <FriendCard
             key={item.id}
             removeFriend={this.clicked}
             id={item.id}
             name={item.name}
             image={item.image} />)}
         </Wrapper>
-
+        <Footer/>
       </div>
     );
 
