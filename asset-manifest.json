@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react_Flag_Clicker_Game/static/css/main.26b1772e.css",
-    "main.js": "/react_Flag_Clicker_Game/static/js/main.9a323fd9.js",
+    "main.js": "/react_Flag_Clicker_Game/static/js/main.f9bdd9d6.js",
     "index.html": "/react_Flag_Clicker_Game/index.html",
     "main.26b1772e.css.map": "/react_Flag_Clicker_Game/static/css/main.26b1772e.css.map",
-    "main.9a323fd9.js.map": "/react_Flag_Clicker_Game/static/js/main.9a323fd9.js.map"
+    "main.f9bdd9d6.js.map": "/react_Flag_Clicker_Game/static/js/main.f9bdd9d6.js.map"
   },
   "entrypoints": [
     "static/css/main.26b1772e.css",
-    "static/js/main.9a323fd9.js"
+    "static/js/main.f9bdd9d6.js"
   ]
 }
