@@ -1,7 +1,7 @@
 import React from 'react';
 import FlagsCard from './Components/FlagsCard'
 import Wrapper from "./Components/Wrapper";
-import flags from "./flags.json";
+import Flags from "./Flags.json";
 import Navbar from "./Components/Navbar"
 import Jumbotron from "./Components/Jumbotron"
 import './App.css';
@@ -12,13 +12,13 @@ import Footer from './Components/Footer';
 //this counter component should only iterate up if the click on card has not previoulsy been clicked 
 //this determination could be made at the time of the click and, based on whether or not it has been clicked, it uses the compenets 
 
-// const flags = this.state.flags.filter(flags => flags.id !== id);
+// const Flags = this.state.Flags.filter(Flags => Flags.id !== id);
 
 class App extends React.Component {
   // Setting the initial state of the Counter component
   state = {
     clickedArr: [],
-    flags,
+    Flags,
     counter: 0,
     highScore: 0,
     message: ''
@@ -86,9 +86,9 @@ class App extends React.Component {
         <Jumbotron />
 
         <Wrapper >
-          {this.shuffle(this.state.flags).map(item => <FlagsCard
+          {this.shuffle(this.state.Flags).map(item => <FlagsCard
             key={item.id}
-            removeFriend={this.clicked}
+            removeFlag={this.clicked}
             id={item.id}
             name={item.name}
             image={item.image} />)}
