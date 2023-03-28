@@ -15,6 +15,9 @@ import Footer from './Components/Footer';
 // const Flags = this.state.Flags.filter(Flags => Flags.id !== id);
 
 class App extends React.Component {
+
+
+
   // Setting the initial state of the Counter component
   state = {
     clickedArr: [],
@@ -23,6 +26,18 @@ class App extends React.Component {
     highScore: 0,
     message: ''
   };
+
+
+  //Shuffling an array - ES2015 (ES6) version
+  //https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array
+  shuffle = a => {
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
 
   clicked = id => {
 
@@ -45,10 +60,9 @@ class App extends React.Component {
       }
       else {
         this.setState({ counter: this.state.counter + 1,
-          message: <li className="custom-font">Your guess was incorrect!</li>
+          message: <li className="custom-font">Your guess was correct!</li>
          })
       }
-
     }
     else {
       console.log(this.state.highScore)
@@ -56,22 +70,12 @@ class App extends React.Component {
         counter: 0,
         highScore: this.state.highScore,
         clickedArr: [],
-        message: <li className="custom-font">Your guess incorrect!</li>
+        message: <li className="custom-font">Your guess was incorrect!</li>
       });
     };
 
   };
 
-  //array shuffling 
-  //https://stackoverflow.com/questions/6274339/how-can-i-shuffle-an-array
-  shuffle = a => {
-    for (let i = a.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [a[i], a[j]] = [a[j], a[i]];
-    }
-    return a;
-
-  }
   // The render method returns the JSX that should be rendered
   render() {
     return (

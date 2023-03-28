@@ -1,18 +1,18 @@
 .wrapper {
   /* margin-top: 50px; */
   /* padding-top: 50px; */
-  background: #18415c;
+  
   height: auto;
   display: flex;
   flex-flow: row wrap;
-  padding: 50px;
+  padding: 30px;
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
-  background-color: dimgray;
-  /*background-image: url("https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/World_Map.png?raw=true"); */
+ 
+  background-image: url("https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/World_Map.JPG?raw=true");
   /* background-image: url("https://img00.deviantart.net/9c74/i/2015/223/9/2/gotham_city_background_12_by_snowofdahila-d959quq.png"); */
-  background-size: 100%;
+  background-size: auto;
   /* background-image: url("https://img00.deviantart.net/03ca/i/2015/223/f/b/gotham_city_background_10_by_snowofdahila-d959qlz.png"); */
   
 }
