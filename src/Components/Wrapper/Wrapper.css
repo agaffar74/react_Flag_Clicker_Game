@@ -9,8 +9,8 @@
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
- 
-  background-image: url("https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/World_Map.JPG?raw=true");
+  background-color: goldenrod;
+  background-image: url("https://github.com/agaffar74/react_Flag_Clicker_Game/blob/main/public/img/World_Map.jpg?raw=true");
   /* background-image: url("https://img00.deviantart.net/9c74/i/2015/223/9/2/gotham_city_background_12_by_snowofdahila-d959quq.png"); */
   background-size: auto;
   /* background-image: url("https://img00.deviantart.net/03ca/i/2015/223/f/b/gotham_city_background_10_by_snowofdahila-d959qlz.png"); */
